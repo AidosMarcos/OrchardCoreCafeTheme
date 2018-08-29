@@ -14,8 +14,54 @@
     "defaultContentItemId": "[js: uuid()]"
   },
 
-
   "steps": [
+    {
+      "name": "Feature",
+      "enable": [
+        "OrchardCoreBeta2",
+        "OrchardCore.Settings",
+        "OrchardCore.Admin",
+        "OrchardCore.Liquid",
+        "OrchardCore.Contents",
+        "OrchardCore.ContentTypes",
+        "OrchardCore.Alias",
+        "OrchardCore.Autoroute",
+        "OrchardCore.ContentFields",
+        "OrchardCore.ContentPreview",
+        "OrchardCore.CustomSettings",
+        "OrchardCore.Deployment",
+        "OrchardCore.Deployment.Remote",
+        "OrchardCore.Diagnostics",
+        "OrchardCore.DynamicCache",
+        "OrchardCore.Resources",
+        "OrchardCore.Features",
+        "OrchardCore.Feeds",
+        "OrchardCore.Widgets",
+        "OrchardCore.Flows",
+        "OrchardCore.HomeRoute",
+        "OrchardCore.Html",
+        "OrchardCore.Scripting",
+        "OrchardCore.Layers",
+        "OrchardCore.Lists",
+        "OrchardCore.Markdown",
+        "OrchardCore.Title",
+        "OrchardCore.Media",
+        "OrchardCore.Menu",
+        "OrchardCore.Navigation",
+        "OrchardCore.Roles",
+        "OrchardCore.Users",
+        "OrchardCore.Queries",
+        "OrchardCore.Recipes",
+        "OrchardCore.Templates",
+        "OrchardCore.Themes",
+        "CafeTheme",
+        "NewAgeTheme",
+        "SafeMode",
+        "TheAdmin",
+        "TheAgencyTheme"
+      ],
+      "disable": []
+    },
     {
       "name": "ContentDefinition",
       "ContentTypes": [
@@ -1568,8 +1614,8 @@
       "name": "Content",
       "data": [
         {
-          "ContentItemId": "4nh8j3d3m4f8r7fpc9rn8156w4",
-          "ContentItemVersionId": "4fv3ngrdexy1tz6x3z07e0jccf",
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
           "ContentType": "HtmlWidget",
           "Latest": true,
           "Published": true,
@@ -1590,664 +1636,11 @@
               "Html": "<!-- Footer -->\r\n<footer>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4\">\r\n                <span class=\"copyright\">Copyright &copy; Your Website 2018</span>\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <ul class=\"list-inline social-buttons\">\r\n                    <li class=\"list-inline-item\">\r\n                        <a href=\"#\">\r\n                            <i class=\"fa fa-twitter\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li class=\"list-inline-item\">\r\n                        <a href=\"#\">\r\n                            <i class=\"fa fa-facebook\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li class=\"list-inline-item\">\r\n                        <a href=\"#\">\r\n                            <i class=\"fa fa-linkedin\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <ul class=\"list-inline quicklinks\">\r\n                    <li class=\"list-inline-item\">\r\n                        <a href=\"#\">Privacy Policy</a>\r\n                    </li>\r\n                    <li class=\"list-inline-item\">\r\n                        <a href=\"#\">Terms of Use</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</footer>"
             }
           }
+
         },
         {
-          "ContentItemId": "4j0mdqsbm85jms05pn579ybqwk",
-          "ContentItemVersionId": "4r668t95pnwdvt4yzyz3kvhan0",
-          "ContentType": "LandingPage",
-          "Latest": true,
-          "Published": true,
-          "ModifiedUtc": "2018-08-02T14:31:26.9775736Z",
-          "PublishedUtc": "2017-08-16T23:21:37.1612415Z",
-          "CreatedUtc": "2017-08-16T00:49:29.6251921Z",
-          "Owner": null,
-          "Author": "admin",
-          "LandingPage": {},
-          "AutoroutePart": {
-            "Path": "home-page",
-            "SetHomepage": true
-          },
-          "TitlePart": {
-            "Title": "beta2"
-          },
-          "Services": {
-            "ContentItems": [
-              {
-                "ContentItemId": "4gaj95va231cg524v62ffvf2w3",
-                "ContentItemVersionId": "4jsqkcv8rxnhsrxhd4d3mxmhwa",
-                "ContentType": "Service",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0437165Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Service": {
-                  "IconClass": {
-                    "Text": "fa-shopping-cart"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-                },
-                "TitlePart": {
-                  "Title": "E-Commerce"
-                }
-              },
-              {
-                "ContentItemId": "4y3rzaty6w79cw7jq712ftmfmn",
-                "ContentItemVersionId": "4q20ysj9qdt6y6jzyy8f8h8rcy",
-                "ContentType": "Service",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0507163Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Service": {
-                  "IconClass": {
-                    "Text": "fa-laptop"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-                },
-                "TitlePart": {
-                  "Title": "Responsive Design"
-                }
-              },
-              {
-                "ContentItemId": "498e7gahprk7jrw119tv1f9dww",
-                "ContentItemVersionId": "4vpc1a3tc9gmp2afsvmz144dce",
-                "ContentType": "Service",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0527169Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Service": {
-                  "IconClass": {
-                    "Text": "fa-lock"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-                },
-                "TitlePart": {
-                  "Title": "Web Security"
-                }
-              }
-            ]
-          },
-          "Portfolio": {
-            "ContentItems": [
-              {
-                "ContentItemId": "4qc21krp51442yvqcfvbsjnbxr",
-                "ContentItemVersionId": "4csez4pr0sxm81pvtpn1dbnem2",
-                "ContentType": "Project",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0557279Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Project": {
-                  "Image": {
-                    "Paths": [
-                      "/portfolio/01-full.jpg"
-                    ]
-                  },
-                  "Category": {
-                    "Text": "Illustrations"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                },
-                "TitlePart": {
-                  "Title": "Threads"
-                }
-              },
-              {
-                "ContentItemId": "4m60bk93ake1jzbz3ytj8cr4ms",
-                "ContentItemVersionId": "4w92a8dvfwzj7vcr7tq70tgkcw",
-                "ContentType": "Project",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0662276Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Project": {
-                  "Image": {
-                    "Paths": [
-                      "/portfolio/02-full.jpg"
-                    ]
-                  },
-                  "Category": {
-                    "Text": "Graphic Design"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                },
-                "TitlePart": {
-                  "Title": "Explore"
-                }
-              },
-              {
-                "ContentItemId": "4x7whfr1jsyrq4gdqrpf88x6cc",
-                "ContentItemVersionId": "4dber5f8p9qjs06b3394st3dnf",
-                "ContentType": "Project",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0687296Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Project": {
-                  "Image": {
-                    "Paths": [
-                      "/portfolio/03-full.jpg"
-                    ]
-                  },
-                  "Category": {
-                    "Text": "Identity"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                },
-                "TitlePart": {
-                  "Title": "Finish"
-                }
-              },
-              {
-                "ContentItemId": "4qa6y437b0ga0xar5wbpxn7scc",
-                "ContentItemVersionId": "407zxfwnk76tz0bdfy4b705pcw",
-                "ContentType": "Project",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0717342Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Project": {
-                  "Image": {
-                    "Paths": [
-                      "/portfolio/04-full.jpg"
-                    ]
-                  },
-                  "Category": {
-                    "Text": "Branding"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                },
-                "TitlePart": {
-                  "Title": "Lines"
-                }
-              },
-              {
-                "ContentItemId": "4qcwnd6f84bsysy897zb33famw",
-                "ContentItemVersionId": "4sqqbcdyhphcq3nqz0eeme654h",
-                "ContentType": "Project",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0767335Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Project": {
-                  "Image": {
-                    "Paths": [
-                      "/portfolio/05-full.jpg"
-                    ]
-                  },
-                  "Category": {
-                    "Text": "Web Design"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                },
-                "TitlePart": {
-                  "Title": "Southwest"
-                }
-              },
-              {
-                "ContentItemId": "46vqy97k01xezzvdpd5ngc7kw7",
-                "ContentItemVersionId": "4w4rgfxp0jvkcybdc3wmdyzr4x",
-                "ContentType": "Project",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0797331Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Project": {
-                  "Image": {
-                    "Paths": [
-                      "/portfolio/06-full.jpg"
-                    ]
-                  },
-                  "Category": {
-                    "Text": "Photography"
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                },
-                "TitlePart": {
-                  "Title": "Window"
-                }
-              }
-            ]
-          },
-          "About": {
-            "ContentItems": [
-              {
-                "ContentItemId": "4p9hm77gfryxj2tteeq4e3rr41",
-                "ContentItemVersionId": "4wb8fj3c6ksdfvtgk1qxrv8yxm",
-                "ContentType": "Milestone",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0827325Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Milestone": {
-                  "Date": {
-                    "Text": "2009-2011"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/1.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-                },
-                "TitlePart": {
-                  "Title": "Our Humble Beginnings"
-                }
-              },
-              {
-                "ContentItemId": "4tqa5jzz6xr64sx1exd45zevmj",
-                "ContentItemVersionId": "460zwmqvpf7mv3m4cq4bbg7pwf",
-                "ContentType": "Milestone",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0857333Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Milestone": {
-                  "Date": {
-                    "Text": "MARCH 2011"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/2.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!\r\n"
-                },
-                "TitlePart": {
-                  "Title": "An Agency is Born"
-                }
-              },
-              {
-                "ContentItemId": "4etd3nv6xz8kdtq0akt418464r",
-                "ContentItemVersionId": "4dsjyfdzeqb1ywaf6e2j94rpxn",
-                "ContentType": "Milestone",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0887326Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Milestone": {
-                  "Date": {
-                    "Text": "DECEMBER 2012"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/3.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-                },
-                "TitlePart": {
-                  "Title": "Transition to Full Service"
-                }
-              },
-              {
-                "ContentItemId": "413mvnee5wrt22a8adp4hbkgwa",
-                "ContentItemVersionId": "4k31d09rsg5n2vrwxz9c1d0h4q",
-                "ContentType": "Milestone",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0907331Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Milestone": {
-                  "Date": {
-                    "Text": "JULY 2014"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/4.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!\r\n"
-                },
-                "TitlePart": {
-                  "Title": "Phase Two Expansion"
-                }
-              }
-            ]
-          },
-          "Team": {
-            "ContentItems": [
-              {
-                "ContentItemId": "4ztg6akcars1etjrcm80f6s1ck",
-                "ContentItemVersionId": "452568khbhhdj00pd0pevsnbdc",
-                "ContentType": "TeamMember",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0947327Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "TeamMember": {
-                  "Occupation": {
-                    "Text": "Lead Designer"
-                  },
-                  "Picture": {
-                    "Paths": [
-                      "/team/1.jpg"
-                    ]
-                  },
-                  "Twitter": {
-                    "Text": "@BillGates"
-                  },
-                  "Facebook": {
-                    "Text": "BillGates"
-                  },
-                  "LinkedIn": {
-                    "Text": "williamhgates"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Kay Garland"
-                }
-              },
-              {
-                "ContentItemId": "4ja6kqcn27b5j2tjv6d4jrzcxj",
-                "ContentItemVersionId": "46jkqqsvcam38x23fwhszawync",
-                "ContentType": "TeamMember",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.0977324Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "TeamMember": {
-                  "Occupation": {
-                    "Text": "Lead Marketer"
-                  },
-                  "Picture": {
-                    "Paths": [
-                      "/team/2.jpg"
-                    ]
-                  },
-                  "Twitter": {
-                    "Text": "@BillGates"
-                  },
-                  "Facebook": {
-                    "Text": "BillGates"
-                  },
-                  "LinkedIn": {
-                    "Text": "williamhgates"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Larry Parker"
-                }
-              },
-              {
-                "ContentItemId": "4bftcwp058nf70hgz4b843fvct",
-                "ContentItemVersionId": "4ftx9fjd1qd7vz3txw7hqmy448",
-                "ContentType": "TeamMember",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.1017334Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "TeamMember": {
-                  "Occupation": {
-                    "Text": "Lead Developer"
-                  },
-                  "Picture": {
-                    "Paths": [
-                      "/team/3.jpg"
-                    ]
-                  },
-                  "Twitter": {
-                    "Text": "@BillGates"
-                  },
-                  "Facebook": {
-                    "Text": "BillGates"
-                  },
-                  "LinkedIn": {
-                    "Text": "williamhgates"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Diana Pertersen"
-                }
-              }
-            ]
-          },
-          "Clients": {
-            "ContentItems": [
-              {
-                "ContentItemId": "47rmth1whk8ggtnmg5vg7b94cx",
-                "ContentItemVersionId": "4vawhm9k55eemtewfsd2gpmsc6",
-                "ContentType": "Client",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.1067324Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/envato.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Envato"
-                }
-              },
-              {
-                "ContentItemId": "4wgecztmxpp6xyct17dxf1esdc",
-                "ContentItemVersionId": "43fhvm8cdv7dy47wegd9kz5qwb",
-                "ContentType": "Client",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.108733Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/designmodo.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Design Moto"
-                }
-              },
-              {
-                "ContentItemId": "43s6f0yxmtyzaxd7m0rs4rvadn",
-                "ContentItemVersionId": "4qfn3qg63snadvxx8maa2r7g4y",
-                "ContentType": "Client",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.1107326Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/themeforest.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "ThemeForest"
-                }
-              },
-              {
-                "ContentItemId": "4m5mvpt7kfr9m5sdg0efbkn7c0",
-                "ContentItemVersionId": "4hppppts88cdj5b5v1v8cdt1cx",
-                "ContentType": "Client",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2017-08-16T23:21:37.1127323Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/creative-market.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Creative"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "ContentItemId": "4qkn8es6vkkv83he665qkkyec2",
-          "ContentItemVersionId": "4mdpj7qbtt2xfv4azyqa2xs4wa",
-          "ContentType": "Menu",
-          "Latest": true,
-          "Published": true,
-          "ModifiedUtc": "2018-08-02T15:17:09.2258394Z",
-          "PublishedUtc": "2018-08-02T15:17:09.255771Z",
-          "CreatedUtc": "2017-08-16T00:32:59.1287452Z",
-          "Owner": null,
-          "Author": "admin",
-          "MenuPart": {},
-          "TitlePart": {
-            "Title": "Main Menu"
-          },
-          "MenuItemsListPart": {
-            "MenuItems": [
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "4xjmqfkdr6e5js8wyx2sybr4df",
-                "LinkMenuItemPart": {
-                  "Name": "Services",
-                  "Url": "~/#services"
-                }
-              },
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "4h2mtmg1kkdmqx895xr287pm4q",
-                "LinkMenuItemPart": {
-                  "Name": "Portfolio",
-                  "Url": "~/#portfolio"
-                }
-              },
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "4e22qdg3zrz26w7akss7hdfen7",
-                "LinkMenuItemPart": {
-                  "Name": "About",
-                  "Url": "~/aboutus"
-                }
-              },
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "4tevrbjep748e4y69nxnhsvv5h",
-                "LinkMenuItemPart": {
-                  "Name": "Team",
-                  "Url": "~/#team"
-                }
-              },
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "4rsz5136dme1dt6n4etvv4ka4w",
-                "LinkMenuItemPart": {
-                  "Name": "Contact",
-                  "Url": "~/#contact"
-                }
-              }
-            ]
-          },
-          "AliasPart": {
-            "Alias": "main-menu"
-          }
-        },
-        {
-          "ContentItemId": "4bhpcjrjejrzjwwdbjye3nwawh",
-          "ContentItemVersionId": "4egdt097m6e20whrm105h0avn9",
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
           "ContentType": "Menu",
           "Latest": true,
           "Published": true,
@@ -2267,7 +1660,7 @@
             "MenuItems": [
               {
                 "Id": 0,
-                "ContentItemId": "4ke8vkzerbkx1wrsgw8pk8xkws",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "Latest": false,
@@ -2284,7 +1677,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "4263ee6zrnxxv5ybq0y8qn6txv",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "Latest": false,
@@ -2301,7 +1694,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "417k682y7ra741s6rkr8ps6vdy",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "Latest": false,
@@ -2318,7 +1711,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "4kamkgq8d1nyrxwsg7gkgsfdm1",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "Latest": false,
@@ -2337,8 +1730,8 @@
           }
         },
         {
-          "ContentItemId": "472a7ex40jwe73xte0ghj686w8",
-          "ContentItemVersionId": "4m3nkkrxe04e5xb8ba7xs12v54",
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
           "ContentType": "Aboutus",
           "Latest": true,
           "Published": true,
@@ -2379,8 +1772,8 @@
           }
         },
         {
-          "ContentItemId": "4190ca0093n5kz299mjqa4qpx1",
-          "ContentItemVersionId": "4xsqmwx5m5hje07c357e87eenq",
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
           "ContentType": "Store",
           "Latest": true,
           "Published": true,
@@ -2402,7 +1795,7 @@
             "ContentItems": [
               {
                 "Id": 0,
-                "ContentItemId": "4wfh960zbwvm16w2pcyg3wd153",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Workinghours",
                 "Latest": false,
@@ -2426,7 +1819,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "4vhe06ekeafm5x94h00s4v864e",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Workinghours",
                 "Latest": false,
@@ -2450,7 +1843,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "47bj3dh4b5t33tkrbvaw9vckmd",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Workinghours",
                 "Latest": false,
@@ -2474,7 +1867,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "48gdj8md51trqy8a6226h6yxwn",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Workinghours",
                 "Latest": false,
@@ -2498,7 +1891,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "4mw1q9bkjm55wyghmvht68canx",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Workinghours",
                 "Latest": false,
@@ -2522,7 +1915,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "46jrty0rbay8p0tgsefhbz0amb",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Workinghours",
                 "Latest": false,
@@ -2554,8 +1947,8 @@
           }
         },
         {
-          "ContentItemId": "451bv7sk9638m79wxbrjqcdp5j",
-          "ContentItemVersionId": "43f793y7fp9g916spcj7x29nmn",
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
           "ContentType": "HomePage",
           "Latest": true,
           "Published": true,
@@ -2573,7 +1966,7 @@
             "ContentItems": [
               {
                 "Id": 0,
-                "ContentItemId": "4e9c37kq965w96spn827xy5a5a",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Product",
                 "Latest": false,
@@ -2610,7 +2003,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "4gg1vkpzkbhdx2v57pk3nmdmm4",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Product",
                 "Latest": false,
@@ -2653,99 +2046,8 @@
           }
         },
         {
-          "ContentItemId": "4xfdcf27sy85g3dkjv842b7wcj",
-          "ContentItemVersionId": "44pj1vwtvr82212qgjnbresx53",
-          "ContentType": "Menu",
-          "Latest": true,
-          "Published": true,
-          "ModifiedUtc": "2018-08-06T14:01:10.4803531Z",
-          "PublishedUtc": "2018-08-06T14:01:10.4885894Z",
-          "CreatedUtc": "2018-08-06T13:46:45.8451286Z",
-          "Owner": "admin",
-          "Author": "admin",
-          "TitlePart": {
-            "Title": "NewAge Menu"
-          },
-          "AliasPart": {
-            "Alias": "main-menu3"
-          },
-          "MenuPart": {},
-          "MenuItemsListPart": {
-            "MenuItems": [
-              {
-                "Id": 0,
-                "ContentItemId": "4cngm980sxax8rr60yekdfp4m6",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2018-08-06T13:47:05.3135619Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "LinkMenuItemPart": {
-                  "Name": "Home",
-                  "Url": "#pagetop"
-                }
-              },
-              {
-                "Id": 0,
-                "ContentItemId": "41ybms2838wkqxw0cawq3nvadz",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2018-08-06T13:47:34.8015552Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "LinkMenuItemPart": {
-                  "Name": "Products",
-                  "Url": "#products"
-                }
-              },
-              {
-                "Id": 0,
-                "ContentItemId": "4e7eb29adny0gwmczv1mn1zbwx",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2018-08-06T13:47:49.1122336Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "LinkMenuItemPart": {
-                  "Name": "About",
-                  "Url": "#about"
-                }
-              },
-              {
-                "Id": 0,
-                "ContentItemId": "45wq10zpmgh85rjp2ma1s6sj5j",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2018-08-06T13:48:00.0144036Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "admin",
-                "LinkMenuItemPart": {
-                  "Name": "Store",
-                  "Url": "#store"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "ContentItemId": "46nvrswc28manzz18we1qfhhcd",
-          "ContentItemVersionId": "427b0h69n81hwrsrt296syxtmp",
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
           "ContentType": "Products",
           "Latest": true,
           "Published": true,
@@ -2763,7 +2065,7 @@
             "ContentItems": [
               {
                 "Id": 0,
-                "ContentItemId": "4q99yg44tg49v05hrwamfe0swk",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Product",
                 "Latest": false,
@@ -2800,7 +2102,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "49hp3yxx100w4tz8w4httd96wq",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Product",
                 "Latest": false,
@@ -2837,7 +2139,7 @@
               },
               {
                 "Id": 0,
-                "ContentItemId": "4q14yg9z6247z7gzjvsvyb07x8",
+                "ContentItemId": "[js:uuid()]",
                 "ContentItemVersionId": null,
                 "ContentType": "Product",
                 "Latest": false,
@@ -2893,51 +2195,33 @@
       "Admin": "TheAdmin"
     },
     {
-      "name": "Feature",
-      "enable": [
-        "OrchardCoreBeta2",
-        "OrchardCore.Settings",
-        "OrchardCore.Admin",
-        "OrchardCore.Liquid",
-        "OrchardCore.Contents",
-        "OrchardCore.ContentTypes",
-        "OrchardCore.Alias",
-        "OrchardCore.Autoroute",
-        "OrchardCore.ContentFields",
-        "OrchardCore.ContentPreview",
-        "OrchardCore.CustomSettings",
-        "OrchardCore.Deployment",
-        "OrchardCore.Deployment.Remote",
-        "OrchardCore.Diagnostics",
-        "OrchardCore.DynamicCache",
-        "OrchardCore.Resources",
-        "OrchardCore.Features",
-        "OrchardCore.Feeds",
-        "OrchardCore.Widgets",
-        "OrchardCore.Flows",
-        "OrchardCore.HomeRoute",
-        "OrchardCore.Html",
-        "OrchardCore.Scripting",
-        "OrchardCore.Layers",
-        "OrchardCore.Lists",
-        "OrchardCore.Markdown",
-        "OrchardCore.Title",
-        "OrchardCore.Media",
-        "OrchardCore.Menu",
-        "OrchardCore.Navigation",
-        "OrchardCore.Roles",
-        "OrchardCore.Users",
-        "OrchardCore.Queries",
-        "OrchardCore.Recipes",
-        "OrchardCore.Templates",
-        "OrchardCore.Themes",
-        "CafeTheme",
-        "NewAgeTheme",
-        "SafeMode",
-        "TheAdmin",
-        "TheAgencyTheme"
-      ],
-      "disable": []
+      "name": "media",
+      "Files": [
+        {
+          "Path": "about/about.jpg",
+          "Base64": "[file:base64('../wwwroot/img/about.jpg')]"
+        },
+        {
+          "Path": "about/bg.jpg",
+          "Base64": "[file:base64('../wwwroot/img/bg.jpg')]"
+        },
+        {
+          "Path": "about/intro.jpg",
+          "Base64": "[file:base64('../wwwroot/img/intro.jpg')]"
+        },
+        {
+          "Path": "about/products-01.jpg",
+          "Base64": "[file:base64('../wwwroot/img/products-01.jpg')]"
+        },
+        {
+          "Path": "about/products-02.jpg",
+          "Base64": "[file:base64('../wwwroot/img/products-02.jpg')]"
+        },
+        {
+          "Path": "about/products-03.jpg",
+          "Base64": "[file:base64('../wwwroot/img/products-03.jpg')]"
+        }
+      ]
     },
     {
       "name": "Layers",
