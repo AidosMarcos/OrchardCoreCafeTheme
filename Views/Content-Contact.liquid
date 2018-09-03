@@ -1,0 +1,16 @@
+﻿{% assign contact = Content["alias:contact"].Content %}
+
+<p class="address mb-5">
+    <em>
+        <strong>{{ contact.HtmlBodyPart.Html | raw }}</strong>
+        <br />
+        {{ contact.ContactInfo.Address.Text }}
+    </em>
+</p>
+<p class="mb-0">
+    <small>
+        <em>Call Anytime</em>
+    </small>
+    <br />
+    {{ contact.ContactInfo.Phone.Text }}
+</p>

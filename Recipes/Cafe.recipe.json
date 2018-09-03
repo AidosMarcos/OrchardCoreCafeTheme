@@ -18,7 +18,6 @@
     {
       "name": "Feature",
       "enable": [
-        "OrchardCoreBeta2",
         "OrchardCore.Settings",
         "OrchardCore.Admin",
         "OrchardCore.Liquid",
@@ -54,8 +53,7 @@
         "OrchardCore.Recipes",
         "OrchardCore.Templates",
         "OrchardCore.Themes",
-        "CafeTheme",
-        "NewAgeTheme",
+        "CafeTheme.OrchardCore",
         "SafeMode",
         "TheAdmin",
         "TheAgencyTheme"
@@ -1005,6 +1003,48 @@
               }
             }
           ]
+        },
+        {
+          "Name": "ContactInfo",
+          "DisplayName": "ContactInfo",
+          "Settings": {
+            "Creatable": "True",
+            "Draftable": "True",
+            "Versionable": "True",
+            "Listable": "True",
+            "Securable": "True",
+            "Stereotype": null
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "ContactInfo",
+              "Name": "ContactInfo",
+              "Settings": {
+                "Position": "0"
+              }
+            },
+            {
+              "PartName": "HtmlBodyPart",
+              "Name": "HtmlBodyPart",
+              "Settings": {
+                "Position": "1"
+              }
+            },
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "Position": "2"
+              }
+            },
+            {
+              "PartName": "AliasPart",
+              "Name": "AliasPart",
+              "Settings": {
+                "Position": "3"
+              }
+            }
+          ]
         }
       ],
       "ContentParts": [
@@ -1581,17 +1621,27 @@
           ]
         },
         {
-          "Name": "Workinghours",
+          "Name": "ContactInfo",
           "Settings": {},
           "ContentPartFieldDefinitionRecords": [
             {
               "FieldName": "TextField",
-              "Name": "Weekday",
+              "Name": "Phone",
               "Settings": {
-                "DisplayName": "Weekday",
-                "Hint": null,
+                "DisplayName": "Phone",
                 "Editor": null,
+                "Hint": null,
                 "Position": "0"
+              }
+            },
+            {
+              "FieldName": "TextField",
+              "Name": "Address",
+              "Settings": {
+                "DisplayName": "Address",
+                "Editor": null,
+                "Hint": null,
+                "Position": "1"
               }
             }
           ]
@@ -2186,12 +2236,41 @@
           "AliasPart": {
             "Alias": "products"
           }
+        },
+        {
+          "ContentItemId": "[js:uuid()]",
+          "ContentItemVersionId": "[js:uuid()]",
+          "ContentType": "ContactInfo",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2018-09-03T11:13:46.8270315Z",
+          "PublishedUtc": "2018-09-03T11:13:46.8314171Z",
+          "CreatedUtc": "2018-09-03T10:53:00.9471171Z",
+          "Owner": "admin",
+          "Author": "admin",
+          "ContactInfo": {
+            "Phone": {
+              "Text": "(317) 585-8468"
+            },
+            "Address": {
+              "Text": "Golden Valley, Minnesota"
+            }
+          },
+          "HtmlBodyPart": {
+            "Html": "1116 Orchard Street"
+          },
+          "TitlePart": {
+            "Title": "Contact"
+          },
+          "AliasPart": {
+            "Alias": "contact"
+          }
         }
       ]
     },
     {
       "name": "Themes",
-      "Site": "CafeTheme",
+      "Site": "CafeTheme.OrchardCore",
       "Admin": "TheAdmin"
     },
     {
